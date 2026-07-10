@@ -1,0 +1,20 @@
+manual_view_range_sweep_updown_10sets
+
+기준 범위:
+base_top_candidate_q=0.85
+base_height_band_m=0.03
+base_adaptive_max_band_m=0.08
+
+01_up   : lower fixed, upper +0.010m
+02_up   : lower fixed, upper +0.020m
+03_up   : lower fixed, upper +0.030m
+04_up   : lower fixed, upper +0.040m
+05_up   : lower fixed, upper +0.050m
+06_down : upper fixed, lower -0.010m
+07_down : upper fixed, lower -0.020m
+08_down : upper fixed, lower -0.030m
+09_down : upper fixed, lower -0.040m
+10_down : upper fixed, lower -0.050m
+
+input=/Users/hajiwan/Desktop/object_detection/result/eval1_real_newmask_height_auto_boxexpand100/val/marker_points
+view_dir=/Users/hajiwan/Desktop/object_detection/new_tema/yolov2/realdata/real_flat_manual_view_val_all

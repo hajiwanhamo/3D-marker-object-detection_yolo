@@ -1,0 +1,9 @@
+path: C:/Users/gkwld/Desktop/3D-Marker-Pose-Estimation/CAD_to_PointCloud_conversion/pointnet2/new_tema/yolo/yolo_pose_dataset_region_density_v2
+train: images/train
+val: images/val
+
+names:
+  0: marker
+
+kpt_shape: [4, 3]
+flip_idx: [0, 1, 2, 3]

@@ -1,0 +1,86 @@
+{
+  "source_file": "C:\\Users\\gkwld\\Desktop\\3D-Marker-Pose-Estimation\\CAD_to_PointCloud_conversion\\pointnet2\\result\\eval1_real_newmask_height_auto_boxexpand100\\val\\marker_points\\1_19_2026_162954_complete_denoise_marker.xyz",
+  "projection_mode": "marker_plane_vertical_view",
+  "cut_mode": "manual_local_z_quantile",
+  "image_size": 512,
+  "point_radius": 2,
+  "view_margin": 1.2,
+  "plane_fit_q": 0.8,
+  "z_min_q": 0.75,
+  "z_max_q": 0.99,
+  "color_mode": "raw_z",
+  "color_ref": "marker_all_raw_z",
+  "invert_jet": false,
+  "color_min": -1.59,
+  "color_max": -1.374,
+  "color_q_min": 0.02,
+  "color_q_max": 0.98,
+  "plane_center": [
+    -0.9688798832317357,
+    0.5622635871898337,
+    -1.5192021979909096
+  ],
+  "plane_normal": [
+    0.07627399904090609,
+    0.02814434864014154,
+    0.996689607003068
+  ],
+  "marker_origin": [
+    -0.9638511663111572,
+    0.5617650175462734,
+    -1.494332691116777
+  ],
+  "image_u_axis_3d": [
+    0.9970868954450888,
+    -0.0021529538007041466,
+    -0.076243607729441
+  ],
+  "image_v_axis_3d": [
+    -4.336808689946367e-19,
+    0.9996015508329077,
+    -0.028226575606081265
+  ],
+  "u_min": -0.6168565151186539,
+  "u_max": 0.4088214785051735,
+  "v_min": -0.4555189067950619,
+  "v_max": 0.5034690217662549,
+  "pixel_size_u_m": 0.002007197639185572,
+  "pixel_size_v_m": 0.0018766887055994457,
+  "back_projection_note": {
+    "pixel_to_uv": "u = u_min + px * pixel_size_u_m, v = v_max - py * pixel_size_v_m",
+    "point_on_plane_3d": "marker_origin + u * image_u_axis_3d + v * image_v_axis_3d",
+    "direction_3d": "du * image_u_axis_3d + dv * image_v_axis_3d"
+  },
+  "debug": {
+    "total_points": 14533,
+    "plane_fit_points": 11647,
+    "selected_points": 3488,
+    "selected_ratio": 0.24000550471341087,
+    "local_z_min": -0.13244345536919136,
+    "local_z_mean": 0.02515670746445528,
+    "local_z_max": 0.17851586043817697,
+    "local_z_q10": -0.04003192079431626,
+    "local_z_q20": -0.03166552098890671,
+    "local_z_q30": -0.02376712709376204,
+    "local_z_q40": -0.01547682882563802,
+    "local_z_q50": -0.004371690618480309,
+    "local_z_q60": 0.0097784822472188,
+    "local_z_q70": 0.08937762661547799,
+    "local_z_q80": 0.11506529030490834,
+    "local_z_q90": 0.1261307724291766,
+    "local_z_q95": 0.13205206186477367,
+    "local_z_q99": 0.14245622997087531,
+    "selected_local_z_min": 0.10757643516356233,
+    "selected_local_z_max": 0.14240100222002372,
+    "manual_cut": {
+      "cut_mode": "manual_local_z_quantile",
+      "z_min_q": 0.75,
+      "z_max_q": 0.99,
+      "z_low_value": 0.10757643516356233,
+      "z_high_value": 0.14245622997087531,
+      "selected_points": 3488,
+      "total_points": 14533,
+      "selected_ratio": 0.24000550471341087
+    }
+  }
+}

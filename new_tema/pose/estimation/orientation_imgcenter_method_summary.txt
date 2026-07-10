@@ -1,0 +1,56 @@
+방향추정 및 CENTER 보정 방식 정리
+
+1. 사용 데이터
+- 추론 대상: yolo11n_D3_real_empirical_v2_spatial_train160_val40_epoch60_01_down_conf040
+- 기준 GT dataset:
+  /Users/hajiwan/Desktop/object_detection/new_tema/yolov2/dataset/dataset11/damage_manual_poly_D3_real_empirical_v2_spatial_train160_val40
+- 추론 결과는 pose 폴더에 복사된 conf040 결과를 사용함.
+
+2. 방향추정 방식
+- 방향추정은 GT-template2D 방식을 사용함.
+- GT labels/train, labels/val에서 class0~class3의 2D 상대 배치 template을 생성함.
+- conf040 YOLO 예측 label에서 class별 후보를 모두 읽음.
+- confidence가 가장 높은 detection을 단순 선택하지 않고, 가능한 class 조합을 template과 비교함.
+- template residual이 가장 작은 조합을 선택하여 방향을 결정함.
+- class0은 square로 보고 North 기준으로 사용함.
+- class0이 없고 class1/class2/class3이 모두 존재하는 경우에만 square 위치를 template으로 추정함.
+- class0이 없고 사용 가능한 class가 2개 이하이면 방향추정 실패로 처리함.
+
+3. CENTER 보정 방식
+- 기존 방식의 CENTER는 class 중심 평균 또는 template fitting 중심을 사용했기 때문에 실제 중심과 어긋나는 문제가 있었음.
+- 추가 분석 결과, 현재 01_down 투영 이미지의 정상 CENTER는 image center로 판단됨.
+- 따라서 CENTER는 normalized 좌표 기준 (0.5, 0.5)로 고정함.
+- 512x512 이미지 기준 pixel 좌표로는 약 (256, 256)에 해당함.
+
+4. 방향추정 성능에 대한 영향
+- CENTER만 image center로 변경함.
+- north_vec는 기존 GT-template2D 방향추정 결과를 그대로 유지함.
+- 따라서 class 선택, square 선택, north_vec, angle_deg, residual은 기존 template2d 결과와 동일함.
+- 즉 방향추정 자체에는 영향을 주지 않고, CENTER 및 N/E/S/W 표시 기준 위치만 변경한 방식임.
+
+5. N/E/S/W 표시 방식
+- CENTER는 image center로 고정함.
+- 기존 template2d에서 계산된 north_vec 방향을 유지함.
+- N/E/S/W 점은 image center 기준으로 다시 배치함.
+- 방향 벡터를 square_center - image_center로 다시 계산하지 않음.
+
+6. 기존 CENTER 방식 실패 원인
+- ID 평균 CENTER:
+  class 누락, 중복, 오검출에 의해 중심이 쉽게 흔들림.
+- marker_all_uv OBB CENTER:
+  투영 기준은 AABB인데 OBB 중심을 사용하여 square 또는 특정 ID 쪽으로 끌리는 문제가 발생함.
+- CAD center:
+  CAD 원점이 현재 2D 투영 이미지의 crop center와 직접 대응되지 않아 개선되지 않음.
+
+7. 현재 결과 상태
+- CENTER 보정 후 전체적으로 많이 개선됨.
+- 다만 아직 방향을 아예 추정하지 못하는 데이터 1개가 존재함.
+- CENTER가 약간 잘못 잡힌 것으로 보이는 데이터 1개가 존재함.
+- 남은 문제는 CENTER 전체 방식보다는 class 선택, square 후보 선택, 또는 특정 샘플의 YOLO 검출 품질 문제로 분리해서 봐야 함.
+
+8. 현재 기준 결론
+- 현재 사용 방식:
+  방향추정 = GT-template2D 기반 class 조합 선택 및 north_vec 계산
+  CENTER = image center 고정
+  N/E/S/W = 기존 north_vec를 image center 기준으로 표시
+- 이 방식은 방향추정 로직을 변경하지 않고 CENTER 표시 문제만 보정한 방식임.

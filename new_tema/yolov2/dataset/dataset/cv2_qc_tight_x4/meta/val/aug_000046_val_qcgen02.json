@@ -1,0 +1,103 @@
+{
+  "source_image": "C:\\Users\\gkwld\\Desktop\\3D-Marker-Pose-Estimation\\CAD_to_PointCloud_conversion\\pointnet2\\new_tema\\yolov2\\dataset\\from_2dimage_existing_labels_no_flipx\\images\\train\\aug_000046.png",
+  "source_label": "C:\\Users\\gkwld\\Desktop\\3D-Marker-Pose-Estimation\\CAD_to_PointCloud_conversion\\pointnet2\\new_tema\\yolov2\\dataset\\from_2dimage_existing_labels_no_flipx\\labels\\train\\aug_000046.txt",
+  "source_split": "train",
+  "output_split": "val",
+  "aug_idx": 2,
+  "labels": [
+    {
+      "cls": 0,
+      "poly_norm": [
+        [
+          0.28679144382476807,
+          0.3710341453552246
+        ],
+        [
+          0.3209812045097351,
+          0.3801514506340027
+        ],
+        [
+          0.3120344281196594,
+          0.41370171308517456
+        ],
+        [
+          0.27784469723701477,
+          0.40458443760871887
+        ]
+      ]
+    },
+    {
+      "cls": 1,
+      "poly_norm": [
+        [
+          0.3222395181655884,
+          0.1709231585264206
+        ],
+        [
+          0.621232807636261,
+          0.2517321705818176
+        ],
+        [
+          0.5952556133270264,
+          0.34784772992134094
+        ],
+        [
+          0.29626235365867615,
+          0.2670387327671051
+        ]
+      ]
+    },
+    {
+      "cls": 2,
+      "poly_norm": [
+        [
+          0.678370475769043,
+          0.49204105138778687
+        ],
+        [
+          0.7741353511810303,
+          0.5178652405738831
+        ],
+        [
+          0.6934456825256348,
+          0.8170895576477051
+        ],
+        [
+          0.5976808071136475,
+          0.7912653684616089
+        ]
+      ]
+    },
+    {
+      "cls": 3,
+      "poly_norm": [
+        [
+          0.4855617880821228,
+          0.4490707516670227
+        ],
+        [
+          0.5357189774513245,
+          0.5361859798431396
+        ],
+        [
+          0.26769280433654785,
+          0.6905040740966797
+        ],
+        [
+          0.2175355851650238,
+          0.6033889055252075
+        ]
+      ]
+    }
+  ],
+  "square_repaired": false,
+  "repair_msg": "class0_ok",
+  "cls0_aspect": 1.0191,
+  "cls1_aspect": 3.1108,
+  "cls2_aspect": 3.1246,
+  "cls3_aspect": 3.0767,
+  "cls0_visible_px": 279,
+  "cls1_visible_px": 6761,
+  "cls2_visible_px": 6783,
+  "cls3_visible_px": 6835
+}

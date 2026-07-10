@@ -1,0 +1,9 @@
+path: /Users/hajiwan/Desktop/object_detection/new_tema/yolov2/dataset/dataset26_x4x2
+train: images/train
+val: images/val
+
+names:
+  0: square
+  1: rect1
+  2: rect2
+  3: rect3

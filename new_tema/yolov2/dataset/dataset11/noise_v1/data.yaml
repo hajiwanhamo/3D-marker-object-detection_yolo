@@ -1,0 +1,9 @@
+path: /Users/hajiwan/Desktop/object_detection/new_tema/yolov2/dataset/dataset11/noise_v1
+train: images/train
+val: images/val
+
+names:
+  0: class0
+  1: class1
+  2: class2
+  3: class3

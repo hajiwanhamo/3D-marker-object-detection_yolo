@@ -1,0 +1,142 @@
+{
+  "source_file": "/Users/hajiwan/Desktop/object_detection/result/eval1_real_newmask_height_auto_boxexpand100/val/marker_points/1_19_2026_162954_complete_denoise_marker.xyz",
+  "image_size": 512,
+  "point_radius": 2,
+  "view_margin": 1.2,
+  "plane_fit_q": 0.8,
+  "height_mode": "adaptive",
+  "top_candidate_q": 0.85,
+  "height_band_m": 0.03,
+  "basis_mode": "global",
+  "plane_refine_enabled": true,
+  "align_2d": false,
+  "align_method": "none",
+  "color_mode": "raw_z",
+  "color_ref": "marker_all_raw_z",
+  "invert_jet": false,
+  "color_min": -1.59,
+  "color_max": -1.374,
+  "color_q_min": 0.02,
+  "color_q_max": 0.98,
+  "plane_center": [
+    -0.8557786720321927,
+    0.5779054325955728,
+    -1.4281388329979814
+  ],
+  "plane_normal": [
+    0.07268906006906628,
+    0.02311281124741974,
+    0.9970868059003273
+  ],
+  "marker_origin": [
+    -0.8557786720321927,
+    0.5779054325955728,
+    -1.4281388329979814
+  ],
+  "image_u_axis_3d": [
+    0.9973546513373724,
+    -0.0016845046271880555,
+    -0.0726695389958141
+  ],
+  "image_v_axis_3d": [
+    0.0,
+    0.9997314441380757,
+    -0.02317411486115234
+  ],
+  "u_min": -0.7203577223020099,
+  "u_max": 0.3056405280303409,
+  "v_min": -0.4707468223428155,
+  "v_max": 0.4886933591197,
+  "pixel_size_u_m": 0.0020078243646425653,
+  "pixel_size_v_m": 0.0018775737406311458,
+  "back_projection_note": {
+    "pixel_to_uv": "u = u_min + px * pixel_size_u_m, v = v_max - py * pixel_size_v_m",
+    "point_on_plane_3d": "marker_origin + u * image_u_axis_3d + v * image_v_axis_3d",
+    "direction_3d": "du * image_u_axis_3d + dv * image_v_axis_3d"
+  },
+  "debug": {
+    "total_points": 14533,
+    "basis_mode": "global",
+    "height_mode": "adaptive",
+    "top_candidate_q": 0.85,
+    "height_band_m_input": 0.03,
+    "height_band_m_used": 0.04208118591998306,
+    "id_height_center": 0.010465878769842625,
+    "top_id_points": 4539,
+    "selected_height_min": -0.03154084396352397,
+    "selected_height_max": 0.052096917384942425,
+    "height_min": -0.22828878103537453,
+    "height_mean": -0.0742297609568278,
+    "height_max": 0.07755737881284502,
+    "height_q50": -0.10332168327292643,
+    "height_q70": -0.010232695243184231,
+    "height_q80": 0.015326507525226993,
+    "height_q85": 0.02096706319394835,
+    "height_q90": 0.026560161999906785,
+    "height_q95": 0.03267821372983367,
+    "height_q99": 0.04360427958192302,
+    "layer_selection": {
+      "height_mode": "keep_upper_down_expand",
+      "selection_rule": "upper_fixed_lower_expanded",
+      "body_down_expand_m": 0.02,
+      "base_id_height_center": 0.020465878769842627,
+      "base_height_band_m_used": 0.03208118591998306,
+      "base_lower": -0.011615307150140433,
+      "base_upper_fixed": 0.05254706468982569,
+      "id_height_center": 0.010465878769842625,
+      "height_band_m": 0.04208118591998306,
+      "height_band_m_used": 0.04208118591998306,
+      "new_lower_expanded": -0.03161530715014044,
+      "new_upper_fixed": 0.05254706468982569,
+      "center_shift_m": -0.010000000000000002,
+      "selected_height_min": -0.03154084396352397,
+      "selected_height_max": 0.052096917384942425
+    },
+    "plane_estimation": {
+      "plane_refine_used": true,
+      "coarse_plane_points": 11647,
+      "coarse_plane_center": [
+        -0.9688798832317357,
+        0.5622635871898337,
+        -1.5192021979909096
+      ],
+      "coarse_plane_normal": [
+        0.07627399904090601,
+        0.02814434864014166,
+        0.996689607003068
+      ],
+      "coarse_id_layer": {
+        "height_mode": "keep_upper_down_expand",
+        "selection_rule": "upper_fixed_lower_expanded",
+        "body_down_expand_m": 0.02,
+        "base_id_height_center": 0.12006249644221534,
+        "base_height_band_m_used": 0.0317543004402618,
+        "base_lower": 0.08830819600195354,
+        "base_upper_fixed": 0.15181679688247712,
+        "id_height_center": 0.11006249644221533,
+        "height_band_m": 0.04175430044026179,
+        "height_band_m_used": 0.04175430044026179,
+        "new_lower_expanded": 0.06830819600195354,
+        "new_upper_fixed": 0.15181679688247712,
+        "center_shift_m": -0.010000000000000009,
+        "selected_height_min": 0.06860170673455054,
+        "selected_height_max": 0.15033729397368825
+      },
+      "plate_support": {
+        "plate_status": "ok",
+        "plate_lower": -0.0316655209889067,
+        "plate_upper": 0.10506249644221533,
+        "plate_lo": 0.09224424480804763,
+        "plate_hi": 0.10506249644221533,
+        "plate_bins": 64,
+        "plate_chosen_bin": 63,
+        "plate_bin_count": 123,
+        "plate_left_bin": 58,
+        "plate_right_bin": 63,
+        "plate_points": 497,
+        "plate_min_points": 73,
+        "plane_refine_angle_deg": 0.35470691864513304
+      }
+    }
+  }
+}

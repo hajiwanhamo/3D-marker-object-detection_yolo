@@ -1,0 +1,100 @@
+{
+  "source_file": "/Users/hajiwan/Desktop/object_detection/result/eval1_real_newmask_height_auto_boxexpand100/val/marker_points/1_19_2026_164025_complete_denoise_marker.xyz",
+  "projection_mode": "manual_view_updown_10sets",
+  "manual_view_source": "/Users/hajiwan/Desktop/object_detection/new_tema/yolov2/realdata/real_flat_manual_view_val_all/1_19_2026_164025_complete_denoise_marker_manual_view.json",
+  "capture_image": false,
+  "expand_mode": "up",
+  "expand_m": 0.02,
+  "image_size": 512,
+  "point_radius": 2,
+  "view_margin": 1.2,
+  "base_top_candidate_q": 0.85,
+  "base_height_band_m": 0.03,
+  "base_adaptive_max_band_m": 0.08,
+  "plane_center": [
+    -0.6801865830538213,
+    0.8118571678576655,
+    -1.531539711244
+  ],
+  "plane_normal": [
+    -0.0,
+    -0.0,
+    0.999999999999
+  ],
+  "marker_origin": [
+    -0.6801865830538213,
+    0.8118571678576655,
+    -1.531539711244
+  ],
+  "image_u_axis_3d": [
+    0.999999999999,
+    0.0,
+    0.0
+  ],
+  "image_v_axis_3d": [
+    0.0,
+    0.999999999999,
+    0.0
+  ],
+  "u_min": -0.4115134169457672,
+  "u_max": 0.32888658305349244,
+  "v_min": -0.366457167857299,
+  "v_max": 0.42074283214191377,
+  "pixel_size_u_m": 0.0014489236790592166,
+  "pixel_size_v_m": 0.0015405088062606903,
+  "color_mode": "raw_z",
+  "color_ref": "marker_all_raw_z",
+  "color_min": -1.61,
+  "color_max": -1.407,
+  "debug": {
+    "total_points": 34285,
+    "top_id_points": 10679,
+    "id_height_center": 0.1005397112439093,
+    "height_band_m_used": 0.050771499999959654,
+    "selected_height_min": 0.05053971124394927,
+    "selected_height_max": 0.15053971124384935,
+    "height_min": -0.08346028875591663,
+    "height_max": 0.1795397112438203,
+    "layer_selection": {
+      "height_mode": "manual_view_updown_expand",
+      "selection_rule": "lower_fixed_upper_expanded",
+      "expand_mode": "up",
+      "expand_m": 0.02,
+      "base_id_height_center": 0.0905397112439093,
+      "base_height_band_m_used": 0.04077149999995966,
+      "base_lower": 0.049768211243949645,
+      "base_upper": 0.13131121124386896,
+      "id_height_center": 0.1005397112439093,
+      "height_band_m": 0.050771499999959654,
+      "height_band_m_used": 0.050771499999959654,
+      "new_lower": 0.049768211243949645,
+      "new_upper": 0.15131121124386895,
+      "selected_height_min": 0.05053971124394927,
+      "selected_height_max": 0.15053971124384935,
+      "selected_points": 10679,
+      "base_layer_info": {
+        "height_mode": "adaptive",
+        "status": "adaptive_ok",
+        "adaptive_search_q": 0.6,
+        "adaptive_upper_q": 0.995,
+        "adaptive_bins": 64,
+        "adaptive_min_points": 103,
+        "adaptive_chosen_bin": 48,
+        "adaptive_bin_count": 105,
+        "adaptive_layer_bin_left": 26,
+        "adaptive_layer_bin_right": 49,
+        "adaptive_layer_lo": 0.06347721124393636,
+        "adaptive_layer_hi": 0.1317272112438681,
+        "adaptive_layer_points": 10355,
+        "adaptive_mad": 0.010999999999989116,
+        "adaptive_robust_sigma": 0.016308599999983863,
+        "id_height_center": 0.0905397112439093,
+        "height_band_m": 0.04077149999995966,
+        "selected_height_min": 0.05053971124394927,
+        "selected_height_max": 0.13053971124386934,
+        "selected_points": 10577,
+        "selected_ratio": 0.30850226046375967
+      }
+    }
+  }
+}

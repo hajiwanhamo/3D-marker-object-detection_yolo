@@ -1,0 +1,9 @@
+path: C:/Users/gkwld/Desktop/3D-Marker-Pose-Estimation/CAD_to_PointCloud_conversion/pointnet2/new_tema/yolov2/dataset/rebuilt_from_rule_id
+train: images/train
+val: images/val
+
+names:
+  0: square
+  1: rect1
+  2: rect2
+  3: rect3

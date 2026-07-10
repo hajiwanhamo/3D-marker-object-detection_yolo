@@ -1,0 +1,10 @@
+metric,synthetic,real
+gray_mean,7.754042,8.731621
+gray_std,29.400349,32.519360
+nonzero_ratio,0.073130,0.079480
+dark_ratio,0.926871,0.920520
+edge_density,0.034949,0.025340
+saturation_mean,18.321961,19.914131
+value_mean,16.638909,18.135898
+nonzero_saturation_mean,250.534006,249.876031
+nonzero_value_mean,227.505807,227.991009

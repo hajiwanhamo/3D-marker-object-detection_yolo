@@ -1,0 +1,9 @@
+path: /Users/hajiwan/Desktop/object_detection/new_tema/yolov2/dataset/dataset11/_tmp_val_as_train_src
+train: images/train
+val: images/train
+
+names:
+  0: class0
+  1: class1
+  2: class2
+  3: class3

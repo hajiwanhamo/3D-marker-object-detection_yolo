@@ -1,0 +1,114 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "class0",
+      "points": [
+        [
+          107.5625,
+          248.96875
+        ],
+        [
+          126.3125,
+          305.21875
+        ],
+        [
+          179.4375,
+          284.90625
+        ],
+        [
+          163.03125,
+          230.21875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "class1",
+      "points": [
+        [
+          80.21875,
+          167.71875
+        ],
+        [
+          98.96875,
+          223.96875
+        ],
+        [
+          267.71875,
+          168.5
+        ],
+        [
+          246.625,
+          111.46875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "class2",
+      "points": [
+        [
+          320.0625,
+          193.5
+        ],
+        [
+          371.625,
+          177.09375
+        ],
+        [
+          429.4375,
+          342.71875
+        ],
+        [
+          377.875,
+          361.46875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "class3",
+      "points": [
+        [
+          237.25,
+          226.3125
+        ],
+        [
+          288.8125,
+          253.65625
+        ],
+        [
+          209.90625,
+          412.25
+        ],
+        [
+          156.78125,
+          383.34375
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "aug_000016.png",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

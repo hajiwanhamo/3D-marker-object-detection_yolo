@@ -1,0 +1,9 @@
+path: C:/Users/gkwld/Desktop/3D-Marker-Pose-Estimation/CAD_to_PointCloud_conversion/pointnet2/new_tema/yolo/yolo_dataset
+train: images/train
+val: images/val
+
+names:
+  0: square_id
+  1: clockwise_id_1
+  2: clockwise_id_2
+  3: clockwise_id_3

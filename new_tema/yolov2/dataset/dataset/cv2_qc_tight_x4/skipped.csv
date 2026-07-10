@@ -1,0 +1,17 @@
+﻿aug_idx,reason,repair_msg,source,split,square_repaired
+0,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000130,train,False
+1,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000130,train,False
+2,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000130,train,False
+3,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000130,train,False
+0,label_overlap_cls0_cls1_iou_0.0041_interMin_0.1975,class0_ok,aug_000073,train,False
+1,label_overlap_cls0_cls1_iou_0.0041_interMin_0.1975,class0_ok,aug_000073,train,False
+2,label_overlap_cls0_cls1_iou_0.0041_interMin_0.1975,class0_ok,aug_000073,train,False
+3,label_overlap_cls0_cls1_iou_0.0041_interMin_0.1975,class0_ok,aug_000073,train,False
+0,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000159,val,False
+1,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000159,val,False
+2,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000159,val,False
+3,label_overlap_cls0_cls1_iou_0.0059_interMin_0.2800,class0_ok,aug_000159,val,False
+0,label_overlap_cls0_cls1_iou_0.0063_interMin_0.2997,class0_ok,aug_000076,val,False
+1,label_overlap_cls0_cls1_iou_0.0063_interMin_0.2997,class0_ok,aug_000076,val,False
+2,label_overlap_cls0_cls1_iou_0.0063_interMin_0.2997,class0_ok,aug_000076,val,False
+3,label_overlap_cls0_cls1_iou_0.0063_interMin_0.2997,class0_ok,aug_000076,val,False

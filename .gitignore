@@ -1,0 +1,29 @@
+# virtual environments
+yolo26_env/
+open3d_vis_env/
+.venv/
+venv/
+env/
+*/.venv/
+*/venv/
+*/env/
+
+# python cache
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# virtual environments
+o3d_env/
+open3d_vis_env/
+yolo26_env/
+*_env/
+.venv/
+venv/
+env/
+*/.venv/
+*/venv/
+*/env/

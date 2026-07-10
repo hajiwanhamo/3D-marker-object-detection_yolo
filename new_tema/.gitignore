@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# virtual environments
+.venv/
+env/
+venv/
+o3d_env/
+yolo26_env/
+
+# IDE
+.vscode/
+.idea/
+
+# pose reconstruction outputs
+pose/reconstruction_3d/output/
+pose/reconstruction_3d_pointnet/output/
+
+# local visualization env
+../open3d_vis_env/
+open3d_vis_env/
+
+# temporary local backups
+pose_removed_backup_*/
+
+# local YOLO inference results
+yolov2/result/
+
+# local damage generation logs
+yolov2/code/damage_D3_D4_generation_check_report.txt
+yolov2/code/damage_generation_history_context.txt
+yolov2/code/damage_generation_trace.txt
+
+# pose reconstruction generated outputs
+pose/reconstruction_3d/output/
+pose/reconstruction_3d_pointnet/output/

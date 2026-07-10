@@ -1,0 +1,21 @@
+range_sweep_final_10sets
+
+01_fixed : adaptive center + height_band_m=0.020, adaptive_max_band_m=0.040
+02_fixed : adaptive center + height_band_m=0.030, adaptive_max_band_m=0.060
+03_fixed : adaptive center + height_band_m=0.040, adaptive_max_band_m=0.080
+04_fixed : adaptive center + height_band_m=0.050, adaptive_max_band_m=0.100
+05_fixed : adaptive center + height_band_m=0.060, adaptive_max_band_m=0.120
+
+06_body  : base upper fixed, lower expand=0.010
+07_body  : base upper fixed, lower expand=0.020
+08_body  : base upper fixed, lower expand=0.030
+09_body  : base upper fixed, lower expand=0.040
+10_body  : base upper fixed, lower expand=0.050
+
+common:
+top_candidate_q=0.85
+height_mode=adaptive
+basis_mode=global
+image_size=512
+point_radius=2
+view_margin=1.2

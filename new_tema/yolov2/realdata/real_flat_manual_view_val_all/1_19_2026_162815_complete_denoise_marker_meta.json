@@ -1,0 +1,109 @@
+{
+  "source_file": "/Users/hajiwan/Desktop/object_detection/result/eval1_real_newmask_height_auto_boxexpand100/val/marker_points/1_19_2026_162815_complete_denoise_marker.xyz",
+  "projection_mode": "manual_view_same_cut",
+  "capture_image": false,
+  "note": "수동 view 방향만 사용하고, top_id 선택은 기존 make_top_id_projection.py의 select_top_id_layer를 그대로 사용함.",
+  "image_size": 512,
+  "point_radius": 2,
+  "view_margin": 1.2,
+  "height_mode": "adaptive",
+  "top_candidate_q": 0.85,
+  "height_band_m": 0.03,
+  "adaptive_search_q": 0.6,
+  "adaptive_upper_q": 0.995,
+  "adaptive_bins": 64,
+  "adaptive_min_points": 20,
+  "adaptive_min_ratio": 0.003,
+  "adaptive_neighbor_ratio": 0.35,
+  "adaptive_band_scale": 2.5,
+  "adaptive_min_band_m": 0.01,
+  "adaptive_max_band_m": 0.06,
+  "adaptive_max_selected_ratio": 0.35,
+  "manual_normal_from_view": "back",
+  "manual_front_3d": [
+    0.0,
+    0.0,
+    -0.9999999999989999
+  ],
+  "manual_up_3d": [
+    0.0,
+    0.9999999999989999,
+    0.0
+  ],
+  "manual_lookat_3d": [
+    -0.9738965700258754,
+    0.5635530418629359,
+    -1.4846412791083223
+  ],
+  "plane_center": [
+    -0.9738965700258754,
+    0.5635530418629359,
+    -1.4846412791083223
+  ],
+  "plane_normal": [
+    -0.0,
+    -0.0,
+    0.9999999999989999
+  ],
+  "marker_origin": [
+    -0.9738965700258754,
+    0.5635530418629359,
+    -1.4846412791083223
+  ],
+  "image_u_axis_3d": [
+    0.999999999999,
+    0.0,
+    0.0
+  ],
+  "image_v_axis_3d": [
+    -0.0,
+    0.999999999999,
+    0.0
+  ],
+  "u_min": -0.5272034299735974,
+  "u_max": 0.3979965700254774,
+  "v_min": -0.41875304186251705,
+  "v_max": 0.49564695813656845,
+  "pixel_size_u_m": 0.0018105675146752932,
+  "pixel_size_v_m": 0.0017894324853211067,
+  "color_mode": "raw_z",
+  "color_ref": "marker_all_raw_z",
+  "invert_jet": false,
+  "color_min": -1.584,
+  "color_max": -1.33,
+  "color_q_min": 0.02,
+  "color_q_max": 0.98,
+  "debug": {
+    "total_points": 15073,
+    "top_id_points": 4952,
+    "id_height_center": 0.07664127910824577,
+    "height_band_m_used": 0.06,
+    "selected_height_min": 0.016641279108305717,
+    "selected_height_max": 0.1366412791081856,
+    "height_min": -0.10335872089157438,
+    "height_max": 0.30164127910802063,
+    "layer_selection": {
+      "height_mode": "adaptive",
+      "status": "adaptive_ok",
+      "adaptive_search_q": 0.6,
+      "adaptive_upper_q": 0.995,
+      "adaptive_bins": 64,
+      "adaptive_min_points": 46,
+      "adaptive_chosen_bin": 32,
+      "adaptive_bin_count": 61,
+      "adaptive_layer_bin_left": 0,
+      "adaptive_layer_bin_right": 33,
+      "adaptive_layer_lo": -0.00035872089167740746,
+      "adaptive_layer_hi": 0.14201627910818024,
+      "adaptive_layer_points": 5711,
+      "adaptive_mad": 0.016999999999982904,
+      "adaptive_robust_sigma": 0.025204199999974652,
+      "id_height_center": 0.07664127910824577,
+      "height_band_m": 0.06,
+      "selected_height_min": 0.016641279108305717,
+      "selected_height_max": 0.1366412791081856,
+      "selected_points": 4952,
+      "selected_ratio": 0.32853446560074306
+    }
+  }
+}
